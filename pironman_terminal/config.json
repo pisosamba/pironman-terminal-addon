@@ -1,0 +1,18 @@
+{
+  "name": "Pironman Terminal",
+  "version": "1.0",
+  "slug": "pironman_terminal",
+  "description": "Terminal s podporou Pythonu pre ovládanie Pironman 5",
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": false,
+  "hassio_role": "default",
+  "homeassistant_api": false,
+  "apparmor": false,
+  "host_network": true,
+  "privileged": ["SYS_ADMIN", "NET_ADMIN"],
+  "map": ["config:rw", "addons:rw", "ssl", "media:rw", "share:rw"],
+  "options": {},
+  "schema": {},
+  "arch": ["aarch64", "armv7"]
+}
